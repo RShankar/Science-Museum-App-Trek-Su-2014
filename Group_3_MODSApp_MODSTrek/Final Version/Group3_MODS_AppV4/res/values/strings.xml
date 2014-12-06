@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Group3_MODS_App</string>
+    <string name="action_settings">Settings</string>
+    <string name="floor_map_btn_text">Floor Map</string>
+    <string name="options_btn_text">About / Options</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="title_activity_floor_map1">Floor 1 Map</string>
+    <string name="title_activity_floor_map2">Floor 2 Map</string>
+    <string name="title_activity_nfcsensor_page">NFC Sensor Page</string>
+    <string name="events_and_programs_text">Events and Programs</string>
+    <string name="floor1_tab_text">Floor 1</string>
+    <string name="floor2_tab_text">Floor 2</string>
+    <string name="sensor_tab_text">Scan</string>
+    <string name="title_activity_events_programs">EventsPrograms</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exhibit1">Exhibit1</string>
+
+</resources>

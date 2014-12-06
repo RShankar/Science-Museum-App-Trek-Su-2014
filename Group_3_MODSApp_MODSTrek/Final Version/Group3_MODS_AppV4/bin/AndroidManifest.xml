@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edu.fau.group3_mods_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.edu.fau.group3_mods_app.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.edu.fau.group3_mods_app.AboutPage"
+            android:label="@string/title_activity_about_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.edu.fau.group3_mods_app.FloorMap1"
+            android:label="@string/title_activity_floor_map1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.edu.fau.group3_mods_app.FloorMap2"
+            android:label="@string/title_activity_floor_map2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.edu.fau.group3_mods_app.NFCSensorPage"
+            android:label="@string/title_activity_nfcsensor_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.edu.fau.group3_mods_app.EventsPrograms"
+            android:label="@string/title_activity_events_programs" >
+        </activity>
+        <activity
+            android:name="com.edu.fau.group3_mods_app.Exhibit1"
+            android:label="@string/title_activity_exhibit1" >
+        </activity>
+    </application>
+
+</manifest>
